@@ -1,0 +1,2 @@
+D:\проги\GAME\GAME.Tests\obj\Debug\GAME.Tests.csprojResolveAssemblyReference.cache
+D:\проги\GAME\GAME.Tests\obj\Debug\GAME.Tests.csproj.CoreCompileInputs.cache

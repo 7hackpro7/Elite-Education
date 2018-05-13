@@ -1,0 +1,10 @@
+D:\проги\GAME\obj\Debug\GAME.csproj.CoreCompileInputs.cache
+D:\проги\GAME\bin\Debug\GAME.exe.config
+D:\проги\GAME\bin\Debug\GAME.exe
+D:\проги\GAME\bin\Debug\GAME.pdb
+D:\проги\GAME\obj\Debug\GAME.exe
+D:\проги\GAME\obj\Debug\GAME.pdb
+D:\проги\GAME\bin\Debug\nunit.framework.dll
+D:\проги\GAME\bin\Debug\nunit.framework.pdb
+D:\проги\GAME\bin\Debug\nunit.framework.xml
+D:\проги\GAME\obj\Debug\GAME.csprojResolveAssemblyReference.cache
