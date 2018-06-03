@@ -1,6 +1,4 @@
 ﻿using System;
-using static System.Runtime.InteropServices.ImportedFromTypeLibAttribute;
-using static System.Runtime.InteropServices.PrimaryInteropAssemblyAttribute;
 
 namespace GAME
 {
@@ -8,8 +6,6 @@ namespace GAME
 	{
 		private string kamen = "Камень";
 		private string nosnici = "Ножницы";
-
-
 		private string bumaga = "Бумага";
 		private string[] str = new String[2];
 		public void Hod()
@@ -20,16 +16,21 @@ namespace GAME
 			Console.WriteLine("3. Бумага");
 			Console.Write("Выберите цифру: ");
 		}
-		public string[] Vibor(int num1, int num2)
+		public string ViborYou(int num1)
 		{
 			Console.Clear();
 			if (num1 == 1) str[0] = kamen;
 			if (num1 == 2) str[0] = nosnici;
 			if (num1 == 3) str[0] = bumaga;
+			return str[0];
+		}
+		public string ViborBot( int num2)
+		{
+			Console.Clear();
 			if (num2 == 1) str[1] = kamen;
 			if (num2 == 2) str[1] = nosnici;
 			if (num2 == 3) str[1] = bumaga;
-			return str;
+			return str[1];
 		}
 		public string Ishod(int num1, int num2)
 		{

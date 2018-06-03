@@ -1,13 +1,11 @@
 ﻿using System;
-using static System.Runtime.InteropServices.ImportedFromTypeLibAttribute;
-using static System.Runtime.InteropServices.PrimaryInteropAssemblyAttribute;
 
 namespace GAME
 {
 	class GAME
 	{
 		private int numberyou, numberbot;
-		private string[] str = new String[2];
+		private string[] str = new string[2];
 		string restart = "Д";
 		public void Play()
 		{
@@ -23,7 +21,11 @@ namespace GAME
 					numberyou = int.Parse(Console.ReadLine());
 				}
 				numberbot = bot.Random();
-				str = text.Vibor(numberyou, numberbot);
+				str[0] = text.ViborYou(numberyou);
+				str[0] = text.ViborBot(numberbot);
+				Console.WriteLine(str[0]);
+				Console.WriteLine(str[1]);
+				Console.ReadKey();
 				Console.WriteLine("Вы выбрали " + str[0]);
 				Console.WriteLine("Бот выбрал " + str[1]);
 				Console.WriteLine(text.Ishod(numberyou, numberbot));

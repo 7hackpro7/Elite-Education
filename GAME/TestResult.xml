@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-06-03 12:07:08Z" end-time="2018-06-03 12:07:09Z" duration="1.676846">
+  <command-line><![CDATA["D:\проги\GAME\.\packages\NUnit.ConsoleRunner.3.8.0\tools\nunit3-console.exe" .\GAME.Tests\bin\Debug\GAME.Tests.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1" name="GAME.Tests.dll" fullname="D:\проги\GAME\GAME.Tests\bin\Debug\GAME.Tests.dll" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
+    <properties>
+      <property name="_SKIPREASON" value="No suitable tests found in 'D:\проги\GAME\GAME.Tests\bin\Debug\GAME.Tests.dll'.&#xA;Either assembly contains no tests or proper test driver has not been found." />
+    </properties>
+    <reason>
+      <message>No suitable tests found in 'D:\проги\GAME\GAME.Tests\bin\Debug\GAME.Tests.dll'.
+Either assembly contains no tests or proper test driver has not been found.</message>
+    </reason>
+  </test-suite>
+</test-run>

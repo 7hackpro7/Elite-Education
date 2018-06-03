@@ -1,6 +1,4 @@
 ﻿
-using static System.Runtime.InteropServices.ImportedFromTypeLibAttribute;
-using static System.Runtime.InteropServices.PrimaryInteropAssemblyAttribute;
 namespace GAME
 {
 	class Program

@@ -1,7 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using static System.Runtime.InteropServices.ImportedFromTypeLibAttribute;
-using static System.Runtime.InteropServices.PrimaryInteropAssemblyAttribute;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
 namespace GAME.Tests
@@ -16,7 +13,8 @@ namespace GAME.Tests
 			str[0] = "Камень";
 			str[1] = "Бумага";
 			TEXT text = new TEXT();
-			Assert.AreEqual(text.Vibor(1, 3), str);
+			Assert.AreEqual(text.ViborYou(1), str[0]);
+			Assert.AreEqual(text.ViborYou(3), str[1]);
 		}
 		[TestMethod]
 		public void Input2()
@@ -25,7 +23,8 @@ namespace GAME.Tests
 			str[0] = "Камень";
 			str[1] = "Ножницы";
 			TEXT text = new TEXT();
-			Assert.AreEqual(text.Vibor(1, 2), str);
+			Assert.AreEqual(text.ViborYou(1), str[0]);
+			Assert.AreEqual(text.ViborYou(2), str[1]);
 		}
 		[TestMethod]
 		public void Input3()
@@ -34,7 +33,8 @@ namespace GAME.Tests
 			str[0] = "Ножницы";
 			str[1] = "Бумага";
 			TEXT text = new TEXT();
-			Assert.AreEqual(text.Vibor(2, 3), str);
+			Assert.AreEqual(text.ViborYou(2), str[0]);
+			Assert.AreEqual(text.ViborYou(3), str[1]);
 		}
 		[TestMethod]
 		public void Input4()
@@ -43,7 +43,8 @@ namespace GAME.Tests
 			str[0] = "Камень";
 			str[1] = "Камень";
 			TEXT text = new TEXT();
-			Assert.AreEqual(text.Vibor(1, 1), str);
+			Assert.AreEqual(text.ViborYou(1), str[0]);
+			Assert.AreEqual(text.ViborYou(1), str[1]);
 		}
 		[TestMethod]
 		public void Result1()

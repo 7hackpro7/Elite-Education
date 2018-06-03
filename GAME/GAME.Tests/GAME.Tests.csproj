@@ -58,7 +58,6 @@
     <ProjectReference Include="..\GAME.csproj">
       <Project>{c9ff6c89-563a-43cf-91ae-763e48f14dee}</Project>
       <Name>GAME</Name>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
